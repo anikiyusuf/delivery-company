@@ -1,0 +1,292 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;  
+}
+body{
+    font-family:'Epilogue', sans-serif;
+    background-image: url("../assets/gettyimages.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+ .header > .navbar-item{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:1rem;
+    color: white;
+
+}
+
+
+
+
+.navbar-list > ul{
+    display: flex;
+    list-style: none;
+}
+ 
+.navbar-list > ul > li {
+     padding:2rem;
+}
+
+
+
+/* Login  */
+
+.register{
+ text-align: center;
+ margin:120px auto;
+}
+
+
+
+.register > .signup{
+    background-color:black;
+    width:10%;
+    padding: 1rem;
+
+}
+.register > .signup > a {
+    text-decoration: none;
+    color:white;
+}
+
+
+.register > .login{
+    background-color:black;
+    width:10%;
+    padding: 1rem;
+
+}
+.register > .login > a {
+    text-decoration: none;
+    color:white;
+}
+
+/* Signup page */
+
+#signup{
+    text-align: center;
+    margin:10rem auto;
+    background-color:white;
+    width:20rem;
+    padding:3rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-weight:bold; 
+    border-radius: 0.5rem;
+}
+
+#signup > .form-element > input{
+    width:100%;
+    padding:0.4rem;
+    border-radius: 0.4rem;
+ 
+}
+
+
+#signup > .form-element > button{
+    width:100%;
+    text-transform: uppercase;
+    padding: 0.6rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    border-radius: 0.3rem;
+}
+
+/*  */
+#signup > .form-element >  .btn-signup {
+       background-color:black;
+       color: white;
+       border: none;
+       
+}
+
+#signup > .form-element >  .btn-signup:hover {
+    background-color:white;
+    color: black;
+    border: none;
+    
+}
+
+/* GOOGLE ROUTE  */
+#signup > .form-element >  .btn-google  {
+    background-color:red;
+    border: none; 
+    color: white;   
+}
+#signup > .form-element >  .btn-google:hover  {
+    background-color:white;
+    border: none; 
+    color: red; 
+
+}
+
+
+
+/* FACEBOOK SIGNUP  Route */
+
+#signup > .form-element >  .btn-facebook  {
+    background-color:BLUE;
+    border: none; 
+    color: white;   
+}
+
+#signup > .form-element >  .btn-facebook:hover  {
+    background-color:white;
+    border: none; 
+    color: blue;   
+}
+
+
+/* LOGIN ROUTE */
+ 
+#signup > .form-element >  .btn-login  {
+    background-color:white;
+    border: none; 
+  
+}
+#signup > .form-element >  .btn-login  > a {
+    color: black;
+    text-decoration: none;
+     
+ }
+
+
+
+/* Login HTML */
+#login{
+    text-align: center;
+    margin:10rem auto;
+    background-color:white;
+    width:20rem;
+    padding:3rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+}
+
+#login > .form-element-login > input{
+    width:100%;
+    padding:0.4rem;
+    border-radius: 0.4rem;
+   
+}
+
+
+#login > .form-element > input{
+    width:100%;
+    padding:0.4rem;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+}
+
+
+#login > .form-element-login > button{
+    width:100%;
+    text-transform: uppercase;
+    padding: 0.6rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    border-radius: 0.3rem;
+}
+
+/* LOGIN FORM HTML */
+#login > .form-element-login >  .btn-login-signup {
+       background-color:black;
+       border: none;
+       
+}
+
+#login > .form-element-login >  .btn-login-signup > a {
+    color:white;
+    text-decoration: none;
+    
+}
+
+
+
+ 
+
+/* GOOGLE ROUTE  */
+#login > .form-element-login >  .btn-login-google  {
+    background-color:red;
+    border: none;
+    color: white;    
+}
+#login > .form-element-login >  .btn-login-google:hover  {
+    background-color:white;
+    border: none;
+    color: red;    
+}
+
+
+
+/* FACEBOOK SIGNUP  Route */
+
+#login > .form-element-login >  .btn-login-facebook  {
+    background-color:BLUE;
+    border: none;  
+    color: white;  
+}
+#login > .form-element-login >  .btn-login-facebook:hover  {
+    background-color:white;
+    border: none;  
+    color: blue;  
+}
+
+
+
+/* LOGIN ROUTE */
+ 
+#login > .form-element-login >  .btn-login-login  {
+    background-color:white;
+    border: none; 
+    color: black;   
+}
+
+#login > .form-element-login >  .btn-login-login:hover  {
+    background-color:black;
+    border: none; 
+    color: white;   
+}
+
+
+
+
+
+/* Main Page */
+
+
+ .main-page > .navbar-item{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:1rem;
+    color: white;
+
+}
+
+
+
+
+.main-page > .navbar-list > ul{
+    display: flex;
+    list-style: none;
+}
+ 
+.main-page > .navbar-list > ul > li {
+     padding:2rem;
+}
+
+.pizza-page{
+align-items: center;
+justify-content: center;
+color: white;
+text-align: center;
+padding: 4rem 4rem;
+
+}
+
+
+
